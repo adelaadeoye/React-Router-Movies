@@ -10,7 +10,6 @@ const App = () => {
   const [savedList, setSavedList] = useState( [] );
 
   const addToSavedList = movie => {
-
 //     savedList.forEach((item)=>{
 // if(!item.includes(item.id)){
   setSavedList( [...savedList, movie] );
